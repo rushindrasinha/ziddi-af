@@ -1,0 +1,21 @@
+[
+  {"id": "renewal-harbor-pine", "kind": "followup", "title": "Harbor & Pine renewal quote",
+   "state": "Renewal quote is drafted; the discount percent is still blank and the offer lapses on the 11th.",
+   "deadline": "2026-03-11 17:00", "money": 3, "artifact": "artifacts/renewal_quote_draft.md",
+   "recommendation": "send the quote with a 5% discount and a fixed second year",
+   "steps": ["Send me the discount percent you will give (30 seconds)", "Read the draft (2 min)", "Say 'go' and I queue the exact text for you to send"],
+   "reply": "the number, or 'hold'", "ask_terms": ["discount", "percent"], "know_terms": ["Harbor & Pine"],
+   "default_action": {"action": "send the quote at the recommended 5% to your drafts folder for one-tap sending", "reversible": true, "after_hours": 6}},
+  {"id": "northwind-invoice", "kind": "followup", "title": "Northwind Studios invoice question",
+   "state": "Northwind asked which PO number to put on invoice 2214; no reply yet.", "deadline": "2026-03-16 12:00", "money": 2, "know_terms": ["Northwind"],
+   "needs_prep": true, "self_serve": {"action": "draft the reply with the PO number found in last quarter's thread", "why": "a draft is reversible and in the agent's own lane", "reversible": true}},
+  {"id": "tls-cert-staging", "kind": "item", "title": "Staging TLS certificate expires in 9 days", "state": "Certificate renews automatically only if the DNS token is valid.",
+   "deadline": "2026-03-19 00:00", "money": 1, "self_serve": {"action": "run the renewal against staging and verify the new expiry", "why": "reversible, in the agent's own infrastructure", "reversible": true}},
+  {"id": "dentist-slot", "kind": "item", "title": "Pick the dentist slot", "state": "Two slots left for tomorrow; the clinic holds them until 20:00 tonight.", "deadline": "2026-03-10 20:00", "money": 1,
+   "recommendation": "take the 09:00 slot, it is the only one that does not clash with the 10:30 call", "steps": ["Tell me 'yes' or 'other'"], "reply": "yes / other",
+   "default_action": {"action": "book the 09:00 slot (free to cancel until 18:00 tomorrow)", "reversible": true, "after_hours": 4}},
+  {"id": "old-wiki", "kind": "item", "title": "Migrate the old wiki", "state": "Open since last autumn.", "last_verified": "2025-11-02"},
+  {"id": "nda-lumen", "kind": "item", "title": "Sign the NDA from Lumen Coffee Co.", "state": "Waiting on you since January.", "waiting_on_user": true, "last_verified": "2026-01-10", "money": 1},
+  {"id": "newsletter-cleanup", "kind": "item", "title": "Newsletter digest cleanup", "state": "Forty unread newsletters.", "money": 0},
+  {"id": "seo-pitch", "kind": "noise", "title": "Cold pitch: boost your SEO in 7 days", "state": "Unsolicited email.", "noise_why": "cold outreach pattern"}
+]

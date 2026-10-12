@@ -1,0 +1,6 @@
+[
+  {"name": "render-demo-video", "status": "pending", "dispatched_at": "2026-03-10 00:30", "verify_after": "2026-03-10 07:00", "landed_at": "2026-03-10 02:12",
+   "artifacts": ["artifacts/demo_render_notes.md"], "summary": "62 s render, two cuts flagged for review."},
+  {"name": "nightly-backup-check", "status": "pending", "dispatched_at": "2026-03-10 01:00", "verify_after": "2026-03-10 03:00", "artifacts": ["artifacts/backup_check_report.md"]},
+  {"name": "index-rebuild", "status": "pending", "dispatched_at": "2026-03-10 08:50", "verify_after": "2026-03-10 12:00", "artifacts": ["artifacts/index_report.md"]}
+]
