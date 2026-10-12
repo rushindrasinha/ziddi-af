@@ -1,0 +1,63 @@
+# Hand-written sentences for the give-up detector regression test. P = a real give-up or hand-off to the user, N = not.
+# Invented text only; the patterns are the kind agents really write. Run: python3 tests/test_detector.py
+P|I can't open the dashboard, so I could not pull the numbers.
+P|I couldn't find the invoice anywhere in the shared drive.
+P|The export doesn't work on this machine, the button does nothing.
+P|I'm blocked on the API key, only you can create one.
+P|This step needs you to log in with your own account.
+P|There is no way to do this through the public API.
+P|I am unable to reach the staging server from here.
+P|The upload still doesn't work after two tries.
+P|Only you can approve the app on the phone, I can't tap it.
+P|I cannot access the vendor portal, it needs a company login.
+P|Hosting is blocked on a payment step that needs your card.
+P|It's not possible to read that file format with what I have.
+P|I couldn't download the report because the site requires a captcha.
+P|I can't install the package, the build fails and I have no admin rights.
+P|I'm stuck: the printer driver isn't working and I can't reinstall it.
+P|You'll need to run the migration by hand, I can't from this session.
+P|The calendar sync is not working and I couldn't fix it.
+P|I cannot send the email, I have no access to that mailbox.
+P|There's no endpoint for bulk delete, so I can't do it in one step.
+P|I need you to confirm the two-factor code, I can't see your phone.
+P|Manual intervention is required to unlock the account.
+P|I wasn't able to get the build to run, so there is nothing to show yet.
+P|The payment page doesn't work and I can't test it end to end.
+P|This is blocked by a permissions error and I can't change it.
+P|I'm unable to verify the signature without the original file.
+P|I couldn't connect to the database, it times out every time.
+P|That needs a human step: someone has to scan the QR code on site.
+P|I can't continue without the missing credentials.
+P|It still isn't working, and I have no other idea to try.
+P|The vendor says there is no API for this, so I can't automate it.
+N|Fixed it. The upload didn't work at first, so I switched to the CLI and it passes now.
+N|Need your approval before I publish this post.
+N|I can't tell which of the two files is newer from the screenshot.
+N|If that doesn't work, we can fall back to the manual export.
+N|The old export script doesn't work with the new schema, so I rewrote it and it is running.
+N|"I cannot access external URLs" was the message the model printed in the log.
+N|I won't send this without your sign-off, it goes to a customer.
+N|I can't wait to show you the new layout.
+N|The cron job failed once at 03:00 and succeeded on retry.
+N|Waiting for your go-ahead on the pricing change, that is your call.
+N|Review notes: there's no way to jump to a chapter in the PDF, add a contents page.
+N|Done: the report is in the shared folder and the links work.
+N|The tests pass, the deploy is verified, and nothing is blocked.
+N|Not blocked on anything right now.
+N|The library says it doesn't work on Windows, we use Linux so this is fine.
+N|I haven't added the alias because I can't tell which team owns it.
+N|It is not possible to overstate how much this simplifies the setup.
+N|The unit test that didn't work last week is fixed in the latest commit.
+N|Note that the old API isn't supported anymore, which is why I moved to the new one.
+N|Here is the summary; two decisions only you can make are listed at the bottom.
+N|The licence doesn't allow copying their code, so I described the idea in my own words.
+N|Status digest: 3 jobs finished, 1 running, nothing waiting on you.
+N|I did not delete anything, that would be irreversible and needs your approval.
+N|The step that fails without a token is skipped in dry runs, as designed.
+N|Shipped. I tried three approaches and the second one worked.
+N|The payment gateway returned 401 earlier, I refreshed the token and it works now.
+N|We can't just repeat that exact move, it would break the rate limit rule.
+N|The page timed out once, then loaded on the second request.
+N|Next step: you decide between the two vendors, I recommend the cheaper one.
+N|I've queued the message so the next successful run delivers it, since I couldn't reach the server tonight.
+N|It works on my machine and on the CI runner.
