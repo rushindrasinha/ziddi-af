@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ziddi AF: the agent that does not give up, and does not make you chase it">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="1" stop-color="#0e2a2c"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c6f432" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#c6f432" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1040" cy="160" r="170" fill="url(#halo)"/>
+  <g stroke="#173a3d" stroke-width="1">
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+  <rect x="826" y="52" width="26" height="216" rx="6" fill="#26474a"/>
+  <g stroke="#ff6b57" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M690 108 H806"/>
+    <path d="M806 92 L822 108 L806 124"/>
+    <path d="M690 160 H806"/>
+    <path d="M806 144 L822 160 L806 176"/>
+  </g>
+  <g stroke="#ff6b57" stroke-width="4" stroke-linecap="round">
+    <path d="M834 98 L846 118"/>
+    <path d="M846 98 L834 118"/>
+    <path d="M834 150 L846 170"/>
+    <path d="M846 150 L834 170"/>
+  </g>
+  <g stroke="#c6f432" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M690 214 H790 V34 H900 V160 H1004"/>
+    <path d="M990 146 L1006 160 L990 174"/>
+  </g>
+  <circle cx="1046" cy="160" r="26" fill="#c6f432"/>
+  <path d="M1034 160 L1043 169 L1059 150" stroke="#071a1f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="72" y="150" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="92" font-weight="800" fill="#f2f6ef" letter-spacing="-3">ZIDDI AF</text>
+  <text x="76" y="200" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#b9cfc9">Does not give up. Does not make you chase.</text>
+  <text x="76" y="248" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#c6f432">ladder · attempt log · triage · chase</text>
+</svg>

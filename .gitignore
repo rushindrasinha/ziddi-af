@@ -1,0 +1,5 @@
+launch/
+.DS_Store
+SCRUB_REPORT.md
+__pycache__/
+*.pyc
